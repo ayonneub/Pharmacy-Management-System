@@ -1,0 +1,103 @@
+@font-face{
+	font-family:"qlassik-tb";
+    src:url("font/qlassik-tb.eot") format("eot"),
+	url("font/qlassik-tb.woff") format("woff"),
+	url("font/qlassik-tb.ttf") format("truetype"),
+	url("font/qlassik-tb.svg#WendyLPStd-Medium") format("svg");
+}
+@media all and (min-width:1080px){
+    .container{
+        width: 1020px;
+    }
+}
+body{
+    font-family: qlassic;
+    background: lightgrey;
+}
+.header .display-6{
+    text-align: center;
+    font-weight:bold;
+	font-size:  2.75rem;
+	color:#fff;
+    font-family: qlassic;
+}
+.jumbotron{
+    padding: 28px;
+    background: #3393A9;
+    color: #fff;
+}
+.custom-height{
+    height: 207px!important;
+}
+.content-wrapper{
+    margin-bottom: 50px;
+}
+.box-1, .box-2{
+    padding-bottom: 30px;
+}
+.img-fluid{
+    border-radius: 7px;
+}
+.content-wrapper .h5, h5{
+    font-size: 29px;
+    margin-bottom: 45px;
+    background: #000;
+    display: inline-block;
+    padding: 0px 10px;
+    color: #fff;
+    opacity: .6;
+}
+.footer{
+    background: #343A40;
+    height: 90px;
+}
+.footer .navbar-text{
+    padding-top: 23px;
+    font-size: 19px; 
+}
+   /*--Mobile Layout css--*/ 
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+   .header .display-6{
+        text-align: center;
+        font-weight:bold;
+        font-size:  1.75rem;
+        color:#fff;
+        font-family: qlassic;
+}
+   .content-wrapper .h5, h5{
+        font-size: 1.45rem;
+        margin-bottom: 30px;
+}	
+   .footer .navbar-brand{
+         margin-left: 62px;
+}   
+   .footer .navbar-brand img{
+       
+}
+    .footer .navbar-text{
+        text-align: center;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .footer .bg-dark{
+        justify-content: center;
+    }
+
+    .footer img{
+        width: 150px;
+       
+    }
+
+
+
+}
+
+
