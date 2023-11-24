@@ -14,7 +14,7 @@ There are two types of user in pharmacy management system.Manager,Customer.
 
 •	Customer: <br/>
 o	View available medicine  <br/>.
-o	View  the genre of medicine. <br/>
+o	View  the genre of medicine.<br/>
 o	View the medicine price. <br/>
 o	View the supplier name of the medicine. <br/>
 •	Manager: <br/>
